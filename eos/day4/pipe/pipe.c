@@ -17,17 +17,18 @@ int main()
     id = fork();
     if (0==id)
     {   //Child process
-        close(fd[1]);
-        nbytes_read = read(fd[0],buff,128);
+        close(fd[1]);//closing write system call
+        nbytes_read = read(fd[0],buff,128);//will return no. of successful bytes read
         printf("Parent sent: %s\n",buff);
         printf("Read number of bytes: %ld\n",nbytes_read);
-        close(fd[0]);
+        close(fd[0]);//closing read system call
     }
     else
     {   //Parent process
-        nbytes_write = write(fd[1],"Inter Process Communication(IPC)-PIPES\n",39);
+        close(fd[0]);//closing read system call
+        nbytes_write = write(fd[1],"Inter Process Communication(IPC)-PIPES\n",39);//will return no. of successful bytes written
         printf("Written number of bytes: %ld\n",nbytes_write);
-        close(fd[1]);
+        close(fd[1]);//closing write system call
     }
 
     return 0;
