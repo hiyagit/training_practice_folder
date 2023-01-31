@@ -1,0 +1,1 @@
+cmd_/home/training/hiya/eldd/cross/helloModule/Module.symvers := sed 's/\.ko$$/\.o/' /home/training/hiya/eldd/cross/helloModule/modules.order | scripts/mod/modpost -m -a  -o /home/training/hiya/eldd/cross/helloModule/Module.symvers -e -i Module.symvers   -T -

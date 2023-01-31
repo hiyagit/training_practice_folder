@@ -1,0 +1,1 @@
+cmd_/home/training/hiya/eldd/cross/helloModule/hello.ko := arm-linux-gnueabihf-ld -r  -EL -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/training/hiya/eldd/cross/helloModule/hello.ko /home/training/hiya/eldd/cross/helloModule/hello.o /home/training/hiya/eldd/cross/helloModule/hello.mod.o;  true
