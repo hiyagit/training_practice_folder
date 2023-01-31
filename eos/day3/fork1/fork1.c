@@ -12,11 +12,13 @@ int main()
     
     if(0==id)
     {
+        execl("/home/training/hiya/eos/day9/barrier/bar","","-al",NULL);
         printf("Child Process\n"); //Data processing
     }
     else
     {
         printf("Parent Process\n"); //Data Processing
+        // wait();
     }
 
     return 0;
