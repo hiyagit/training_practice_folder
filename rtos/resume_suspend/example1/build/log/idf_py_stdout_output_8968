@@ -1,0 +1,51 @@
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /home/training/hiya/rtos/resume_suspend/example1/sdkconfig
+-- App "example1" version: 6d4eafc-dirty
+-- Adding linker script /home/training/hiya/rtos/resume_suspend/example1/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/training/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /home/training/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/training/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/training/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/training/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /home/training/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /home/training/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/training/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/training/esp/esp-idf/components/app_trace /home/training/esp/esp-idf/components/app_update /home/training/esp/esp-idf/components/bootloader /home/training/esp/esp-idf/components/bootloader_support /home/training/esp/esp-idf/components/bt /home/training/esp/esp-idf/components/cmock /home/training/esp/esp-idf/components/console /home/training/esp/esp-idf/components/cxx /home/training/esp/esp-idf/components/driver /home/training/esp/esp-idf/components/efuse /home/training/esp/esp-idf/components/esp-tls /home/training/esp/esp-idf/components/esp_adc /home/training/esp/esp-idf/components/esp_app_format /home/training/esp/esp-idf/components/esp_common /home/training/esp/esp-idf/components/esp_eth /home/training/esp/esp-idf/components/esp_event /home/training/esp/esp-idf/components/esp_gdbstub /home/training/esp/esp-idf/components/esp_hid /home/training/esp/esp-idf/components/esp_http_client /home/training/esp/esp-idf/components/esp_http_server /home/training/esp/esp-idf/components/esp_https_ota /home/training/esp/esp-idf/components/esp_https_server /home/training/esp/esp-idf/components/esp_hw_support /home/training/esp/esp-idf/components/esp_lcd /home/training/esp/esp-idf/components/esp_local_ctrl /home/training/esp/esp-idf/components/esp_netif /home/training/esp/esp-idf/components/esp_netif_stack /home/training/esp/esp-idf/components/esp_partition /home/training/esp/esp-idf/components/esp_phy /home/training/esp/esp-idf/components/esp_pm /home/training/esp/esp-idf/components/esp_psram /home/training/esp/esp-idf/components/esp_ringbuf /home/training/esp/esp-idf/components/esp_rom /home/training/esp/esp-idf/components/esp_system /home/training/esp/esp-idf/components/esp_timer /home/training/esp/esp-idf/components/esp_wifi /home/training/esp/esp-idf/components/espcoredump /home/training/esp/esp-idf/components/esptool_py /home/training/esp/esp-idf/components/fatfs /home/training/esp/esp-idf/components/freertos /home/training/esp/esp-idf/components/hal /home/training/esp/esp-idf/components/heap /home/training/esp/esp-idf/components/http_parser /home/training/esp/esp-idf/components/idf_test /home/training/esp/esp-idf/components/ieee802154 /home/training/esp/esp-idf/components/json /home/training/esp/esp-idf/components/log /home/training/esp/esp-idf/components/lwip /home/training/hiya/rtos/resume_suspend/example1/main /home/training/esp/esp-idf/components/mbedtls /home/training/esp/esp-idf/components/mqtt /home/training/esp/esp-idf/components/newlib /home/training/esp/esp-idf/components/nvs_flash /home/training/esp/esp-idf/components/openthread /home/training/esp/esp-idf/components/partition_table /home/training/esp/esp-idf/components/perfmon /home/training/esp/esp-idf/components/protobuf-c /home/training/esp/esp-idf/components/protocomm /home/training/esp/esp-idf/components/pthread /home/training/esp/esp-idf/components/sdmmc /home/training/esp/esp-idf/components/soc /home/training/esp/esp-idf/components/spi_flash /home/training/esp/esp-idf/components/spiffs /home/training/esp/esp-idf/components/tcp_transport /home/training/esp/esp-idf/components/ulp /home/training/esp/esp-idf/components/unity /home/training/esp/esp-idf/components/usb /home/training/esp/esp-idf/components/vfs /home/training/esp/esp-idf/components/wear_levelling /home/training/esp/esp-idf/components/wifi_provisioning /home/training/esp/esp-idf/components/wpa_supplicant /home/training/esp/esp-idf/components/xtensa
+-- Configuring done (2.0s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/training/hiya/rtos/resume_suspend/example1/build
+[1/7] Performing build step for 'bootloader'
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /home/training/hiya/rtos/resume_suspend/example1/sdkconfig
+Compiler supported targets: xtensa-esp32-elf
+
+-- Adding linker script /home/training/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- App "bootloader" version: v5.1-dev-3025-g49551cc48c
+-- Adding linker script /home/training/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/training/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/training/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/training/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/training/esp/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.ld
+-- Adding linker script /home/training/esp/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.rom.ld
+-- Components: bootloader bootloader_support efuse esp_app_format esp_common esp_hw_support esp_rom esp_system esptool_py freertos hal log main micro-ecc newlib partition_table soc spi_flash xtensa
+-- Component paths: /home/training/esp/esp-idf/components/bootloader /home/training/esp/esp-idf/components/bootloader_support /home/training/esp/esp-idf/components/efuse /home/training/esp/esp-idf/components/esp_app_format /home/training/esp/esp-idf/components/esp_common /home/training/esp/esp-idf/components/esp_hw_support /home/training/esp/esp-idf/components/esp_rom /home/training/esp/esp-idf/components/esp_system /home/training/esp/esp-idf/components/esptool_py /home/training/esp/esp-idf/components/freertos /home/training/esp/esp-idf/components/hal /home/training/esp/esp-idf/components/log /home/training/esp/esp-idf/components/bootloader/subproject/main /home/training/esp/esp-idf/components/bootloader/subproject/components/micro-ecc /home/training/esp/esp-idf/components/newlib /home/training/esp/esp-idf/components/partition_table /home/training/esp/esp-idf/components/soc /home/training/esp/esp-idf/components/spi_flash /home/training/esp/esp-idf/components/xtensa
+-- Configuring done (1.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/training/hiya/rtos/resume_suspend/example1/build/bootloader
+[1/1] cd /home/training/hiya/rtos/resume_suspend/example1/build/bootloader/esp-idf/esptool_py && /home/training/.espressif/python_env/idf5.1_py3.8_env/bin/python /home/training/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/training/hiya/rtos/resume_suspend/example1/build/bootloader/bootloader.bin
+Bootloader binary size 0x6720 bytes. 0x8e0 bytes (8%) free.
+[2/7] No install step for 'bootloader'
+[3/7] Completed 'bootloader'
+[4/7] Generating ld/sections.ld
+[5/7] Linking CXX executable example1.elf
+[6/7] Generating binary image from built executable
+esptool.py v4.5.dev2
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/training/hiya/rtos/resume_suspend/example1/build/example1.bin
+[7/7] cd /home/training/hiya/rtos/resume_suspend/example1/build/esp-idf/esptool_py && /home/training/.espressif/python_env/idf5.1_py3.8_env/bin/python /home/training/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/training/hiya/rtos/resume_suspend/example1/build/partition_table/partition-table.bin /home/training/hiya/rtos/resume_suspend/example1/build/example1.bin
+example1.bin binary size 0x28640 bytes. Smallest app partition is 0x100000 bytes. 0xd79c0 bytes (84%) free.
