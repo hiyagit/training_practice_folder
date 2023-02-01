@@ -1,0 +1,21 @@
+[1/9] Performing build step for 'bootloader'
+[1/1] cd /home/training/hiya/rtos/semaphore/build/bootloader/esp-idf/esptool_py && /home/training/.espressif/python_env/idf5.1_py3.8_env/bin/python /home/training/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/training/hiya/rtos/semaphore/build/bootloader/bootloader.bin
+Bootloader binary size 0x6720 bytes. 0x8e0 bytes (8%) free.
+[2/9] No install step for 'bootloader'
+[3/9] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/semaphore.c.obj
+/home/training/hiya/rtos/semaphore/main/semaphore.c: In function 'app_main':
+/home/training/hiya/rtos/semaphore/main/semaphore.c:29:23: warning: variable 'res_2' set but not used [-Wunused-but-set-variable]
+   29 |     BaseType_t res_1, res_2;
+      |                       ^~~~~
+[4/9] Completed 'bootloader'
+[5/9] Linking C static library esp-idf/main/libmain.a
+[6/9] Generating ld/sections.ld
+[7/9] Linking CXX executable semaphore.elf
+[8/9] Generating binary image from built executable
+esptool.py v4.5.dev2
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/training/hiya/rtos/semaphore/build/semaphore.bin
+[9/9] cd /home/training/hiya/rtos/semaphore/build/esp-idf/esptool_py && /home/training/.espressif/python_env/idf5.1_py3.8_env/bin/python /home/training/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/training/hiya/rtos/semaphore/build/partition_table/partition-table.bin /home/training/hiya/rtos/semaphore/build/semaphore.bin
+semaphore.bin binary size 0x28330 bytes. Smallest app partition is 0x100000 bytes. 0xd7cd0 bytes (84%) free.
