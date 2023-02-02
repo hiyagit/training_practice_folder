@@ -2276,3 +2276,6 @@
 2446	2476	0	/home/training/hiya/rtos/semaphore/build/esp-idf/esptool_py/CMakeFiles/app_check_size	cad6a5aa96fbb4db
 2476	6996	0	CMakeFiles/flash	6d595a8b74bba185
 2476	6996	0	/home/training/hiya/rtos/semaphore/build/CMakeFiles/flash	6d595a8b74bba185
+213	9230	1675232779	build.ninja	d493ba9ed958cdc1
+0	102735	0	CMakeFiles/menuconfig	34d8f797fec93993
+0	102735	0	/home/training/hiya/rtos/semaphore/build/CMakeFiles/menuconfig	34d8f797fec93993
